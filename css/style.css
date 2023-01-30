@@ -1,0 +1,152 @@
+.top, .middle {
+    padding: 0.5em 2.5em 0.5em 2.5em;
+    background-color: #ebc2cf;
+}
+
+.bottom {
+    padding: 0.5em 0em 0.5em 0em;
+    margin: auto;
+    width: 50%;
+    background-color: #dab1be;
+    border-radius: 25px;
+}
+
+.headshot {
+    border-radius: 25%;
+}
+
+.slugcatfamily {
+    width: 200px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.slugcatsleep {
+    width: 200px;
+    border-radius: 50px;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+
+.hunterslugcat {
+    width: 200px;
+    border-radius: 50px;
+    position: absolute;
+    top: 450px;
+    right: 50px;
+}
+
+.software-icons, .ups-logo, .typing-image {
+    height: 150px;
+    border-radius: 25px;
+}
+
+.fake-button, #submit {
+    background-color: #6dbbda;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #30334d;
+    border-bottom: 1px solid #30334d;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+.fake-button:hover, #submit:hover {
+    color: white;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #30334d;
+    border-top: 1px solid #30334d;
+    border-right: 1px solid #CCCCCC;
+}
+
+.row {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.column {
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    clear: both;
+}
+
+.card {
+    background-color: #dab1be;
+    margin: 300px 40% auto 40%;
+    border-radius: 25px;
+    box-shadow: 3px 3px rgb(48, 51, 78, 0.2), -1px -1px rgb(255, 255, 255, 0.2);
+}
+
+#message, #name, #email, .card > hr {
+    margin: 10px auto;
+    width: 90%;
+}
+
+#submit {
+    margin: 5px auto 5px auto;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: #ebc2cf;
+}
+
+h1 {
+    font-family: "Dancing Script", serif;
+    font-style: italic;
+    font-size: 48px;
+    color: #83314b;
+    margin: 0px;
+}
+
+h2 {
+    font-family: "Lato Black", sans-serif;
+    color: #af3058;
+    margin: 0px;
+}
+
+h3 {
+    font-family: "Lato", sans-serif;
+    color: #af3058;
+    margin: 0px;
+}
+
+p, li, dd, dt, label {
+    font-family: "Lato Light", sans-serif;
+    color:#83314b;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-family: "Lato Black", sans-serif;
+    color:rgb(57, 18, 163);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fafafa;
+}
+
+hr {
+    border-color:rgb(125, 26, 150);
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 10px;
+    width: 50%;
+}
